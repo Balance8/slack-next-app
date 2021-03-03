@@ -1,7 +1,14 @@
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
+import { UserProvider } from '@auth0/nextjs-auth0';
+import { ThemeProvider } from 'next-themes';
 
-export default MyApp;
+export default function App({ Component, pageProps }) {
+  return (
+    <UserProvider>
+      <ThemeProvider defaultTheme='system' attribute='class'>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </UserProvider>
+  );
+}
