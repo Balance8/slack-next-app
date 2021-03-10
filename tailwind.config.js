@@ -13,53 +13,30 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          light: '#bcbec2',
-          normal: '#202634',
-          dark: '#131721',
-          button: '#475473',
+        brand: {
+          DEFAULT: '#410056',
+          light: '#cfbdd3',
+          dark: '#240a2d',
         },
-        accent: {
-          light: '#b8babc',
-          normal: '#121821',
-          dark: '#0a0e14',
-        },
-        warning: {
-          light: '#f0c2b3',
-          normal: '#cc3300',
-          dark: '#b92000',
-        },
-        textColor: {
-          light: '#000000',
-          dark: '#ffffff',
-        },
-        backgroundColor: {
-          light: '#fafafa',
-          dark: '#202634',
-        },
-        vulcan: {
-          DEFAULT: '#121821',
-          50: '#6B86AE',
-          100: '#5A78A5',
-          200: '#486084',
-          300: '#364863',
-          400: '#243042',
-          500: '#121821',
-          600: '#000000',
-        },
-        charade: {
-          DEFAULT: '#202634',
-          50: '#f4f4f5',
-          100: '#e9e9eb',
-          200: '#c7c9cc',
-          300: '#a6a8ae',
-          400: '#636771',
-          500: '#202634',
-          600: '#1d222f',
-          700: '#181d27',
-          800: '#13171f',
-          900: '#101319',
-        },
+        'cta-light': '#ced2bd',
+        cta: '#405600',
+        'cta-dark': '#242d09',
+
+        'info-light': '#d8ebf6',
+        info: '#4eb1db',
+        'info-dark': '#2e5567',
+
+        'warning-light': '#fbeace',
+        warning: '#dbaf38',
+        'warning-dark': '#685422',
+
+        'success-light': '#d8f0d3',
+        success: '#55bf51',
+        'success-dark': '#2f5b2b',
+
+        'danger-light': '#fecece',
+        danger: '#d9264a',
+        'danger-dark': '#691e27',
       },
       backgroundImage: (theme) => ({
         check: "url('/icons/check.svg')",
