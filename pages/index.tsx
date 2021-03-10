@@ -14,12 +14,7 @@ const index = () => {
 
   return (
     <>
-      <div className='flex flex-col'>
-        <div className='flex-grow'>
-          <Test />
-        </div>
-        <Footer />
-      </div>
+      <Test />
     </>
   );
 };

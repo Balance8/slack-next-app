@@ -697,10 +697,10 @@ export default function Test() {
         </div>
       </div>
       {/* Page title ends */}
-      <div className='pb-10 bg-gray-200'>
-        <div className='container flex px-6 mx-auto'>
+      <div className='pb-10 bg-gray-200 '>
+        <div className='container px-6 mx-auto'>
           <div className='relative z-10 w-full'>
-            <div className='w-full h-auto -mt-8 '>
+            <div className='w-full h-auto -mt-8'>
               <div className='w-full h-auto mb-6 bg-white rounded shadow lg:h-20'>
                 <div className='relative w-full bg-white lg:hidden'>
                   <div className='absolute inset-0 z-0 w-6 h-6 m-auto mr-4'>
@@ -765,23 +765,22 @@ export default function Test() {
                 </ul>
               </div>
               {/* Remove class [ h-64 ] when adding a card block */}
-              <div className='container h-screen mx-auto '>
-                <div className='w-full h-full mb-auto bg-white rounded shadow '>
+              <div className='container h-full mx-auto'>
+                <div className='w-full h-full bg-white rounded shadow'>
                   {/* Place your content here */}
-
-                  <ColGrid />
-
-                  <ColGrid />
-
-                  <ColGrid />
-
-                  <ColGrid />
+                  <BlogCard />
+                  <BlogCard />
+                  <BlogCard />
+                  <BlogCard />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <footer className='relative z-20 w-full mx-auto bg-gray-800 border-b border-gray-700 shadow'>
+        <Footer />
+      </footer>
     </div>
   );
 }
