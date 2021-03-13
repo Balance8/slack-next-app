@@ -1,4 +1,5 @@
 import react from 'react';
+import { Pill } from './atoms/Pill';
 const BlogCard = (props) => {
   return (
     <>
