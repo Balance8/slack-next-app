@@ -1,8 +1,6 @@
 // pages/index.js
 import { useUser } from '@auth0/nextjs-auth0';
 import { useTheme } from 'next-themes';
-import { Footer } from 'src/components/Footer';
-import Layout from 'src/components/layout';
 import Test from 'src/components/Test';
 
 const index = () => {

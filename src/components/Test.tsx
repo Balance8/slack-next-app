@@ -742,16 +742,14 @@ export default function Test() {
                   <BlogCard />
                   <BlogCard />
                   <BlogCard />
-                  <BlogCard />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <footer className='relative z-20 w-full mx-auto bg-gray-800 border-b border-gray-700 shadow'>
-        <Footer />
-      </footer>
+      <Footer />
+      {/* <footer className='relative z-20 w-full mx-auto bg-gray-800 border-b border-gray-700 shadow'></footer> */}
     </div>
   );
 }
