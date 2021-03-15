@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import BlogCard from './BlogCard';
-import ColGrid from './ColGrid';
 import { Footer } from './Footer';
 
 export default function Test() {

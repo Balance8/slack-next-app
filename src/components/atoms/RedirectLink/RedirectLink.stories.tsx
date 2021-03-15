@@ -1,6 +1,6 @@
-import { RedirectLink, RedirectLinkProps } from './RedirectLink';
 import { Meta, Story } from '@storybook/react';
 import React from 'react';
+import { RedirectLink, RedirectLinkProps } from './RedirectLink';
 
 // This tells Storybook how to list your stories and provide information
 export default {

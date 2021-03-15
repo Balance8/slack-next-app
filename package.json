@@ -6,8 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "tsc --noEmit && npm run lint",
+    "lint": "eslint '**/*.{js,ts,tsx}' --cache",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "resolutions": {
+    "graphql": "15.4"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.1.0",
@@ -22,6 +27,7 @@
     "@babel/core": "^7.13.10",
     "@babel/plugin-proposal-class-properties": "^7.12.13",
     "@babel/plugin-proposal-decorators": "^7.12.13",
+    "@jonny/eslint-config": "^2.1.221",
     "@storybook/addon-actions": "^6.2.0-beta.14",
     "@storybook/addon-essentials": "^6.2.0-beta.14",
     "@storybook/addon-links": "^6.2.0-beta.14",
@@ -30,19 +36,29 @@
     "@types/js-cookie": "^2.2.6",
     "@types/node": "^14.14.33",
     "@types/react": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
     "apollo": "^2.32.5",
     "autoprefixer": "^10.2.4",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-parameter-decorator": "^1.0.16",
     "babel-plugin-transform-typescript-metadata": "^0.3.1",
+    "eslint": "^7.22.0",
+    "eslint-plugin-10x": "^1.5.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-native": "^3.10.0",
+    "eslint-plugin-react-native-normalized": "^1.1.0",
+    "eslint-plugin-ts-exports": "^1.2.4",
     "postcss": "^8.2.6",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
+    "prettier-plugin-organize-imports": "^1.1.1",
     "tailwindcss": "^2.0.3",
     "typescript": "^4.2.3"
-  },
-  "resolutions": {
-    "graphql": "15.4"
   }
 }

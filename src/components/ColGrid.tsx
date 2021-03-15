@@ -1,5 +1,4 @@
 import React from 'react';
-import BlogCard from './BlogCard';
 
 function ColGrid() {
   return (
@@ -8,7 +7,6 @@ function ColGrid() {
         <div className='flex flex-wrap'>
           <div className='w-full'>
             {/* Remove class [ h-24 ] when adding a card block */}
-
           </div>
         </div>
       </div>
