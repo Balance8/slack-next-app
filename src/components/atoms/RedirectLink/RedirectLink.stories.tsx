@@ -10,19 +10,21 @@ export default {
 
 // With named export we define component's story
 export const Default: Story<RedirectLinkProps> = (args) => (
-  <RedirectLink {...args} />
+  <RedirectLink {...args}>Components</RedirectLink>
 );
+
 // Define default arguments for the Default story
 Default.args = {
-  text: 'Components',
+  href: '#',
 };
 
 // Second story
 export const DarkMode: Story<RedirectLinkProps> = (args) => (
   <div className='dark'>
-    <RedirectLink {...args} />
+    <RedirectLink {...args}>Components</RedirectLink>
   </div>
 );
+
 // Define default arguments for the WithText component and inherit arguments from Default component
 DarkMode.args = {
   ...Default.args,

@@ -3,26 +3,24 @@ import React, { AnchorHTMLAttributes, FC } from 'react';
 
 export interface RedirectLinkProps
   extends AnchorHTMLAttributes<HTMLAnchorElement> {
-  text?: string;
   classes?: string;
+  href: string;
 }
 
 export const RedirectLink: FC<RedirectLinkProps> = ({
   children,
   classes,
-  text,
+  href,
   ...rest
 }) => {
   return (
-    <Link href='javascript:void(0)' passHref>
+    <Link href={href} passHref>
       <a
         className={[
           classes,
-          text,
           'text-xs leading-none text-gray-800 lg:text-sm hover:text-brand-dark dark:hover:text-brand-light dark:text-gray-50',
         ].join(' ')}
         {...rest}>
-        {text}
         {children}
       </a>
     </Link>
