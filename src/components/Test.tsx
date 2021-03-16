@@ -747,7 +747,9 @@ export default function Test() {
           </div>
         </div>
       </div>
+      {/* Footer Starts */}
       <Footer />
+      {/* Footer Ends */}
       {/* <footer className='relative z-20 w-full mx-auto bg-gray-800 border-b border-gray-700 shadow'></footer> */}
     </div>
   );

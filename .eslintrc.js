@@ -4,6 +4,9 @@ module.exports = {
     es6: true,
     node: true,
   },
+  react: {
+    version: 'detect',
+  },
   extends: [
     '@jonny',
     'eslint:recommended',
