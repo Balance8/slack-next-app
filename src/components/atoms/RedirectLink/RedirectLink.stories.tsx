@@ -1,6 +1,6 @@
-import { Meta, Story } from '@storybook/react';
+import { Meta,Story } from '@storybook/react';
 import React from 'react';
-import { RedirectLink, RedirectLinkProps } from './RedirectLink';
+import { RedirectLink,RedirectLinkProps } from './RedirectLink';
 
 // This tells Storybook how to list your stories and provide information
 export default {
@@ -25,7 +25,7 @@ export const DarkMode: Story<RedirectLinkProps> = (args) => (
   </div>
 );
 
-// Define default arguments for the WithText component and inherit arguments from Default component
+// Define default arguments for the DarkMode component and inherit arguments from Default component
 DarkMode.args = {
   ...Default.args,
 };
