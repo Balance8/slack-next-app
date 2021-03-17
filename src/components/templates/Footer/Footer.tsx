@@ -8,9 +8,7 @@ export interface FooterProps {}
 export const Footer: FC<FooterProps> = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <footer
-      id='footer'
-      className='relative z-20 w-full pt-24 mx-auto bg-gray-800 border-b border-gray-700 shadow dark:bg-gray-900'>
+    <footer id='footer' className='relative z-50 pt-24 dark:bg-gray-900'>
       <div className='py-16 border-t border-b border-gray-200 dark:border-gray-700'>
         <div className='container px-4 mx-auto xl:px-12 2xl:px-4'>
           <div className='lg:flex'>

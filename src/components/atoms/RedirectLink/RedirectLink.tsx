@@ -18,7 +18,7 @@ export const RedirectLink: FC<RedirectLinkProps> = ({
       <a
         className={[
           classes,
-          'text-xs leading-none text-gray-800 lg:text-sm hover:text-brand-dark dark:hover:text-brand-light dark:text-gray-50',
+          'text-xs leading-none text-gray-800 lg:text-sm hover:text-brand dark:hover:text-brand-light dark:text-gray-50',
         ].join(' ')}
         {...rest}>
         {children}
