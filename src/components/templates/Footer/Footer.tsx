@@ -3,9 +3,7 @@ import { FC } from 'react';
 import { Logo } from 'src/components/atoms/Logo';
 import { RedirectLink } from 'src/components/atoms/RedirectLink';
 
-export interface FooterProps {
-  footer: {};
-}
+export interface FooterProps {}
 
 export const Footer: FC<FooterProps> = () => {
   const { theme, setTheme } = useTheme();
@@ -111,7 +109,8 @@ export const Footer: FC<FooterProps> = () => {
                       stroke='currentColor'
                       fill='none'
                       strokeLinecap='round'
-                      strokeLinejoin='round'>
+                      strokeLinejoin='round'
+                      pointer-events='none'>
                       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
                       <line x1={3} y1={19} x2={21} y2={19} />
                       <rect x={5} y={6} width={14} height={10} rx={1} />
@@ -128,7 +127,8 @@ export const Footer: FC<FooterProps> = () => {
                       stroke='currentColor'
                       fill='none'
                       strokeLinecap='round'
-                      strokeLinejoin='round'>
+                      strokeLinejoin='round'
+                      pointer-events='none'>
                       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
                       <circle cx={12} cy={12} r={3} />
                       <line x1={12} y1={5} x2={12} y2={3} />
@@ -152,7 +152,8 @@ export const Footer: FC<FooterProps> = () => {
                       stroke='currentColor'
                       fill='none'
                       strokeLinecap='round'
-                      strokeLinejoin='round'>
+                      strokeLinejoin='round'
+                      pointer-events='none'>
                       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
                       <path d='M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z' />
                     </svg>
@@ -167,7 +168,8 @@ export const Footer: FC<FooterProps> = () => {
                     stroke='currentColor'
                     fill='none'
                     strokeLinecap='round'
-                    strokeLinejoin='round'>
+                    strokeLinejoin='round'
+                    pointer-events='none'>
                     <path stroke='none' d='M0 0h24v24H0z' fill='none' />
                     <polyline points='6 9 12 15 18 9' />
                   </svg>

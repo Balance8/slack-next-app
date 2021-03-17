@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import BlogCard from './BlogCard';
-import { Footer } from './organisms/Footer';
+import { Footer } from './templates/Footer';
 
 export default function Test() {
   const [show, setShow] = useState(false);
