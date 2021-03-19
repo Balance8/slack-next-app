@@ -41,6 +41,7 @@ module.exports = {
     },
   },
   rules: {
+    'react/function-component-definition': 0,
     'ts-exports/unused-exports': 2,
     // suppress errors for missing 'import React' in files
     'react/react-in-jsx-scope': 'off',
