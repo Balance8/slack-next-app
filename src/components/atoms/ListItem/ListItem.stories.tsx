@@ -1,6 +1,6 @@
-import { ListItem, ListItemProps } from './ListItem';
 import { Meta, Story } from '@storybook/react';
 import React from 'react';
+import { ListItem, ListItemProps } from './ListItem';
 
 // This tells Storybook how to list your stories and provide information
 export default {

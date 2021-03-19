@@ -894,7 +894,7 @@ const Layout: FunctionComponent<IProps> = ({ main }) => {
                         <input
                           type='checkbox'
                           name='toggle'
-                          checked={theme === 'dark' ? true : false}
+                          checked={theme === 'dark'}
                           id='Black'
                           className='absolute block w-6 h-6 duration-200 ease-in bg-white border-4 rounded-full outline-none appearance-none cursor-pointer checked:bg-black focus:outline-none right-4 checked:right-0'
                           onClick={() =>

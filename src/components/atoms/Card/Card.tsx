@@ -16,7 +16,7 @@ export const Card: FC<CardProps> = ({
       className={[
         classes,
         'rounded-xl p-2',
-        `${variant === 'elevation' ? 'shadow-md' : 'border-2 border-solid'}`
+        `${variant === 'elevation' ? 'shadow-md' : 'border-2 border-solid'}`,
       ].join(' ')}
       {...rest}>
       {children}
