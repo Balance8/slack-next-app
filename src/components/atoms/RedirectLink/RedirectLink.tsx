@@ -1,8 +1,9 @@
-import Link from 'next/link';
-import React, { AnchorHTMLAttributes, FC } from 'react';
+import Link, { LinkProps } from 'next/link';
+import React, { AnchorHTMLAttributes, FC, PropsWithChildren } from 'react';
 
 export interface RedirectLinkProps
-  extends AnchorHTMLAttributes<HTMLAnchorElement> {
+  extends AnchorHTMLAttributes<HTMLAnchorElement>,
+    PropsWithChildren<LinkProps> {
   classes?: string;
   href: string;
 }
